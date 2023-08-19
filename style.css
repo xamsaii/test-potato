@@ -1,0 +1,105 @@
+/*
+Twitter Prototype
+*/
+
+body{
+
+}
+
+.container{
+	display: flex;
+	flex-direction: row;
+	height: 100vh;
+}
+.sidebar-left{
+	flex-grow:1;
+	border:solid;
+	border-width:1px;
+	border-color:#eeeeee;
+}
+.main-content{
+	flex-grow:2;
+	
+}
+.sidebar-right{
+	flex-grow:1;
+	border:solid;
+	border-width:1px;
+	border-color:#eeeeee;
+}
+.main-content{
+}
+.header{
+	display: flex;
+	flex-direction:column;
+	border:solid;
+	border-width:1px;
+	border-color:#eeeeee;
+}
+.home{
+	flex-grow:1;
+	
+	padding:1%;
+}
+.home-txt{
+	font-size:20px;
+	font-family:arial;
+	font-weight:bold;
+}
+.tweet-bar{
+	flex-grow:6;
+	display:flex;
+	flex-direction: row;
+	
+}
+.avi{
+	flex-grow:1;
+	display:flex;
+	justify-content:center;
+	
+	padding-top:1%;
+}
+.avimg{
+	border-radius:50%;
+	height:40px;
+	padding:5px;
+}
+.new-tweet{
+	flex-grow:60;
+	
+	padding: 1%;
+}
+.twt{
+	width:98%;
+	border: none;
+	border-radius:5px;
+	height:40px;
+}
+.twt-etc{
+	display:flex;
+	flex-direction:row;
+}
+.etc-left{
+	flex-grow:1;
+	
+	padding:5px;
+}
+.twt-icon{
+	height:20px;
+}
+.etc-right{
+	flex-grow:3;
+	display:flex;
+	justify-content: flex-end;
+}
+.tweet{
+	margin-top: 5px;
+	margin-right:2%;
+	border:none;
+	border-radius: 10px;
+	background-color: lightblue;
+	height:30px;
+	width:70px;
+	font-weight:bold;
+	color: white;
+}
